@@ -1,0 +1,10 @@
+*{-webkit-tap-highlight-color: rgba(0,0,0,0);}
+
+
+.button_cell{}
+.button_cell .btn{margin: 5px;}
+.tab_control{margin: 10px;}
+.section{padding: 10px; font-size: 14px; color: #999;}
+.slider .slide-group .slide{vertical-align: middle;}
+.slide img{display: inline-block; max-width: 100%; max-height: 100%; vertical-align: middle;}
+.icon_row .icon{width: 50px; height: 50px; margin: 3px; font-size: 24px; line-height: 50px; text-align: center; background-color: #fff; border: 1px solid #ddd; border-radius: 25px;}

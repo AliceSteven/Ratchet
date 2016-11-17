@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrom=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Ratchet基本应用-按钮</title>
+    <link rel="stylesheet" type="text/css" href="css/ratchet.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/ratchet-theme-android.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/ratchet-theme-ios.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="js/ratchet.js"></script>
+    <script type="text/javascript" src="js/push.js"></script>
+</head>
+<body>
+    <!--标准栏-->
+    <header class="bar bar-nav">
+        <button class="btn btn-link btn-nav pull-left">
+            <span class="icon icon-left-nav"></span>
+            Left
+        </button>
+        <button class="btn btn-link btn-nav pull-right">
+            Right
+            <span class="icon icon-right-nav"></span>
+        </button>
+        <h1 class="title">Ratchet应用</h1>
+    </header>
+    <nav class="bar bar-tab bar-footer">
+        <a href="" class="tab-item active">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">Home</span>
+        </a>
+        <a href="" class="tab-item">
+            <span class="icon icon-person"></span>
+            <span class="tab-label">Profile</span>
+        </a>
+        <a href="" class="tab-item">
+            <span class="icon icon-star-filled"></span>
+            <span class="tab-label">Favour</span>
+        </a>
+    </nav>
+    <div class="content">
+        <div class="content-padded">
+            <div class="button_cell">
+                <button class="btn">按钮</button>
+                <button class="btn btn-primary">按钮</button>
+                <button class="btn btn-positive">按钮</button>
+                <button class="btn btn-negative">按钮</button>
+                <button class="btn btn-link">按钮</button>
+                <button class="btn btn-outlined">按钮</button>
+                <button class="btn btn-primary btn-outlined">按钮</button>
+                <button class="btn btn-positive btn-outlined">按钮</button>
+                <button class="btn btn-negative btn-outlined">按钮</button>
+            </div>
+            <!--带小图标的按钮--> 
+            <div class="button_cell">
+                <button class="btn"><span class="icon icon-search"></span>按钮</button>
+                <button class="btn btn-primary"><span class="icon icon-search"></span>按钮</button>
+                <button class="btn btn-positive"><span class="icon icon-search"></span>按钮</button>
+                <button class="btn btn-negative"><span class="icon icon-search"></span>按钮</button>
+                <button class="btn btn-link"><span class="icon icon-left"></span>按钮</button>
+            </div> 
+            <!--带标记的按钮-->
+            <div class="button_cell">
+                <button class="btn">标记按钮<span class="badge">5</span></button>
+                <button class="btn btn-primary">标记按钮<span class="badge badge-primary">8</span></button>
+                <button class="btn btn-positive">标记按钮<span class="badge badge-positive">10</span></button>
+                <button class="btn btn-negative">标记按钮<span class="badge badge-negative">10</span></button>
+                <button class="btn btn-outlined">标记按钮<span class="badge badge-inverted">5</span></button>
+                <button class="btn btn-outlined btn-primary">标记按钮<span class="badge badge-primary badge-inverted">8</span></button>
+                <button class="btn btn-outlined btn-positive">标记按钮<span class="badge badge-positive badge-inverted">10</span></button>
+                <button class="btn btn-outlined btn-negative">标记按钮<span class="badge badge-negative badge-inverted">10</span></button>
+            </div> 
+            <!--大按钮-->
+            <button class="btn btn-block">按钮</button>
+            <button class="btn btn-primary btn-block">按钮</button>
+            <button class="btn btn-positive btn-block">按钮</button>
+            <button class="btn btn-negative btn-block">按钮</button>
+            <button class="btn btn-link btn-block">按钮</button>
+            <button class="btn btn-outlined btn-block">按钮</button>
+            <button class="btn btn-primary btn-outlined btn-block">按钮</button>
+            <button class="btn btn-positive btn-outlined btn-block">按钮</button>
+            <button class="btn btn-negative btn-outlined btn-block">按钮</button>   
+        </div>
+    </div>
+</body>

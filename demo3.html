@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrom=1">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Ratchet基本应用-分段控件</title>
+    <link rel="stylesheet" type="text/css" href="css/ratchet.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/ratchet-theme-android.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/ratchet-theme-ios.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <script type="text/javascript" src="js/ratchet.js"></script>
+    <script type="text/javascript" src="js/push.js"></script>
+</head>
+<body>
+    <!--标准栏-->
+    <header class="bar bar-nav">
+        <button class="btn btn-link btn-nav pull-left">
+            <span class="icon icon-left-nav"></span>
+            Left
+        </button>
+        <button class="btn btn-link btn-nav pull-right">
+            Right
+            <span class="icon icon-right-nav"></span>
+        </button>
+        <h1 class="title">Ratchet应用</h1>
+    </header>
+    <nav class="bar bar-tab bar-footer">
+        <a href="" class="tab-item active">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">Home</span>
+        </a>
+        <a href="" class="tab-item">
+            <span class="icon icon-person"></span>
+            <span class="tab-label">Profile</span>
+        </a>
+        <a href="" class="tab-item">
+            <span class="icon icon-star-filled"></span>
+            <span class="tab-label">Favour</span>
+        </a>
+    </nav>
+    <div class="content">
+        <div class="segmented-control tab_control">
+            <a href="#itemOne" class="control-item active">青龙</a>
+            <a href="#itemTwo" class="control-item">白虎</a>
+            <a href="#itemThree" class="control-item">朱雀</a>
+        </div>
+        <div class="card">
+            <div id="itemOne" class="control-content active">
+                <div class="section">我有一所大房子，面朝大海，春暖花开</div>
+            </div>
+            <div id="itemTwo" class="control-content">
+                <div class="section">从明天起，要善待每一个生命</div>
+            </div>
+            <div id="itemThree" class="control-content">
+                <div class="section">那幸福的闪电告诉我的，我将告诉每一个人，给每一条河，每一座山，取一个温暖的名字，陌生人，我也为你祝福，愿你有一个灿烂的前程，愿你有情人终成眷属，愿你在尘世获得幸福，我只愿面朝大海，春暖花开</div>
+            </div>
+        </div>
+        <!--标记-->
+        <span class="badge">1</span>
+        <span class="badge badge-primary">2</span>
+        <span class="badge badge-positive">3</span>
+        <span class="badge badge-negative">4</span>
+
+        <span class="badge badge-inverted">1</span>
+        <span class="badge badge-primary badge-inverted">2</span>
+        <span class="badge badge-positive badge-inverted">3</span>
+        <span class="badge badge-negative badge-inverted">4</span>
+    </div>
+</body>
+</html>
